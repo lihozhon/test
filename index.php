@@ -1,7 +1,8 @@
 <?php
+require_once "vendor/autoload.php";
+use src\core\Router;
+use src\controllers\Home;
 
-$X = 'десять негритят пошли купаться в море';
-var_dump(mb_strlen($X));
+$router = new Router();
+$router->run();
 
-$X = 'десять негритят пошли купаться в море';
-echo mb_substr($X, 16, 5);

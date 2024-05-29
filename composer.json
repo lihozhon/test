@@ -1,0 +1,21 @@
+{
+    "name": "pavlo/test",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "lihozhon",
+            "email": "doc82806@gmail.com"
+        }
+    ],
+    "require": {},
+    "config": {
+        "optimize-autoloader": true,
+        "preffered-install": "dist",
+        "sort-packages": true
+    }
+}
