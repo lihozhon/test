@@ -13,16 +13,16 @@ class Gallery
 
 	public function create()
 	{
-		echo "create";
+		Viewer::view('Gallery','Gallery_create');
 	}
 
 	public function update()
 	{
-		echo "update";
+		Viewer::view('Gallery','Gallery_update');
 	}
 
 	public function delete()
 	{
-		echo "delete";
+		Viewer::view('Gallery','Gallery_delete');
 	}
 }

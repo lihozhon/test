@@ -1,7 +1,7 @@
 <table>
 	<tr>
 		<th>Galery</th>
-		<th>Index</th>
+		<th>Create</th>
 	</tr>
 	<tr>
 		<td>1</td>
