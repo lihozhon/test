@@ -3,12 +3,15 @@
 namespace src\controllers;
 
 use src\core\Viewer;
+use src\models\galleries;
 
 class Gallery
 {
 	public function index()
 	{
-		Viewer::view('Gallery','Gallery_index');
+		$model = new Galleries();
+		$data['galleries'] = $model->findOne(1);
+		Viewer::view('Gallery','Gallery_index', $data);
 	}
 
 	public function create()

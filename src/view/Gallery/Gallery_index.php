@@ -3,8 +3,10 @@
 		<th>Galery</th>
 		<th>Index</th>
 	</tr>
-	<tr>
-		<td>1</td>
-		<td>2</td>
-	</tr>
+	<?php foreach ($galleries as $gallery): ?> 
+		<tr>
+			<td><?= $gallery['id']?></td>
+			<td><?= $gallery['name']?></td>
+		</tr>
+	<?php endforeach?>
 </table>

@@ -6,11 +6,11 @@ class About
 {
 	public function index()
 	{
-		echo "About";
+		Viewer::view('About','About_index');
 	}
 
 	public function page()
 	{
-		echo "About page";
+		Viewer::view('About','About_page');
 	}
 }

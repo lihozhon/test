@@ -1,10 +1,12 @@
 <table>
 	<tr>
-		<th>first</th>
-		<th>second</th>
+		<th>id</th>
+		<th>post name</th>
 	</tr>
-	<tr>
-		<td>1</td>
-		<td>2</td>
-	</tr>
+	<?php foreach ($posts as $post): ?> 
+		<tr>
+			<td><?= $post['id']?></td>
+			<td><?= $post['name']?></td>
+		</tr>
+	<?php endforeach?>
 </table>
